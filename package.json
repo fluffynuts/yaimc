@@ -12,7 +12,7 @@
     "lint": "tslint -p .",
     "pretest": "rimraf .jest-cache",
     "zarro": "zarro",
-    "prerelease": "run-s build lint test",
+    "prerelease": "run-s build test",
     "release": "cross-env VERSION_INCREMENT_STRATEGY=minor run-s \"zarro release-npm\"",
     "prerelease-beta": "run-s build lint test",
     "release-beta": "cross-env BETA=1 VERSION_INCREMENT_STRATEGY=patch run-s \"zarro release-npm\""

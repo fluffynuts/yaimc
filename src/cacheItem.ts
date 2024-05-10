@@ -1,12 +1,16 @@
 export class CacheItem {
+  public readonly value: any;
+  public readonly ttl: any;
   public get expires(): number {
     return this._expires;
   }
   private _expires: number = 0;
   constructor(
-    public readonly value: any,
-    public readonly ttl: number
+    value: any,
+    ttl: number
   ) {
+    this.value = value;
+    this.ttl = ttl;
     this.extendLifetime();
   }
 
