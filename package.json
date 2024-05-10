@@ -1,6 +1,6 @@
 {
   "name": "yamc",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Yet Another Memory Cache",
   "main": "index.js",
   "scripts": {
