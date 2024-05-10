@@ -1,6 +1,6 @@
-yamc
+yaimc
 ---
-Yet Another Memory Cache
+Yet Another In-Memory Cache
 
 why?
 ---
